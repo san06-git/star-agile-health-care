@@ -23,4 +23,4 @@
     shell: docker rm $(docker ps -a -q)
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8082 sanjaysan01/sa-healthcareapp:3
+    command: docker run -itd -p 8084:8082 sanjaysan01/sa-healthcareapp:latest
