@@ -6,7 +6,7 @@ metadata:
   labels:
     app: healthcare-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: healthcare-app
@@ -34,6 +34,5 @@ spec:
 
   type: NodePort
   ports:
-  - nodePort: 31030  
-    port: 8082
+  - port: 8082
     targetPort: 8082
