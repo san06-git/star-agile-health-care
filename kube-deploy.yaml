@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: healthcare-container
-        image: sanjaysan01/sa-healthcareapp:3
+        image: sanjaysan01/sa-healthcareapp:latest
         ports:
         - containerPort: 8082
 ---
